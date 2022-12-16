@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    background-color: var(--bg-nav);
+    color: var(--text-nav);
+    height: 64px;
+    box-sizing: border-box;
+    .n-conteiner{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        list-style: none;
+        flex: 1;
+        padding: 0 56px;
+        li:hover{
+            color: var(--text-hov);
+        }
+    }
+}
