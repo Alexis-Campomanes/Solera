@@ -1,0 +1,28 @@
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid var(--text-nav);
+    border-radius: 3px;
+    .l-title{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 10px;
+        >:nth-child(2){
+            font-size: 12px;
+            line-height: 20px;
+            opacity: 0.5;
+        }
+    }
+    .l-footer{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: var(--bg-nav);
+        height: 50px;
+        padding-left: 15px;
+    }
+}

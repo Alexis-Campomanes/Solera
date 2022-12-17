@@ -13,6 +13,7 @@
         flex: 1;
         padding: 0 56px;
         li:hover{
+            cursor: pointer;
             color: var(--text-hov);
         }
     }

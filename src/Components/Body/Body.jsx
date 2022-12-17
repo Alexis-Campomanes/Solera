@@ -10,6 +10,11 @@ const Body = () => {
           <div className='s-conteiner'>
             <div className='s-left'>
               <Left />
+              <Left />
+              <Left />
+              <Left />
+              <Left />
+              <Left />
             </div>
             <div className='s-right'>
               <Right/>

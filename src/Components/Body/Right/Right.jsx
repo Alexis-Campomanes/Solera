@@ -4,8 +4,8 @@ import './Right.scss';
 const Right = () => {
     return (
       <section className='right'>
-        <h2>Servicio</h2>
-        <form>
+        <span>Servicio</span>
+        <form className='r-form'>
           <div className='r-section'>
             <label>Nombre</label>
             <input type="text" />
@@ -14,9 +14,9 @@ const Right = () => {
             <label>Descripción</label>
             <input type="text" />
           </div>
-          <div>
-            <button>Grabar</button>
-            <button>Cancelar</button>
+          <div className='r-button'>
+            <button className='button'>Grabar</button>
+            <button className='button b-cancel'>Cancelar</button>
           </div>
 
         </form>    

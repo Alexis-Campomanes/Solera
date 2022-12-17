@@ -5,3 +5,25 @@ body {
   color: var(--bg-text);
   font-size: 16px;
 }
+.button{
+  border: 1px solid var(--bg-button);
+  color: var(--bg-button);
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 12px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.l-button{
+  border-style: none;
+  color: var(--bg-edit);
+  background-color: transparent;
+  font-weight: 500;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
