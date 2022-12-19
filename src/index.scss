@@ -26,4 +26,27 @@ body {
   }
 }
 
+.r-form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+  .r-alig{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 15px;
+    border: 1px solid var(--text-nav);
+    border-radius: 3px; 
+    >:nth-child(1),
+    >:nth-child(2){
+      padding: 7px;
+      border-radius: 3px;
+      border: 1px solid var(--text-nav);
+      width: 250px;
+      outline: none;
+  }
+  }
+}
+
 
