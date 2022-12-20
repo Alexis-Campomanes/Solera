@@ -30,7 +30,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  
   .r-alig{
     display: flex;
     flex-direction: column;
@@ -45,7 +44,7 @@ body {
       border: 1px solid var(--text-nav);
       width: 250px;
       outline: none;
-  }
+    }
   }
 }
 

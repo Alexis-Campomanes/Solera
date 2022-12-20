@@ -15,12 +15,14 @@ const Body = () => {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    const newTodo = {
-      id: crypto.randomUUID(),
-      nombre: values.nombre,
-      description: values.description,
-    };
-    setTodos([...todos, newTodo]);
+    if(values.nombre !== '' && values.description !== '') {
+      const newTodo = {
+        id: crypto.randomUUID(),
+        nombre: values.nombre,
+        description: values.description
+      };
+      setTodos([...todos, newTodo]);
+    }
 }
 
 const handleChange = (evt) => {
@@ -69,7 +71,6 @@ const handleChange = (evt) => {
                     <div className='r-section'>
                       <label htmlFor='nombre'>Nombre</label>
                       <input 
-                      disabled
                       id= 'nombre'
                       name= 'nombre'
                       type= "text"
@@ -80,7 +81,6 @@ const handleChange = (evt) => {
                     <div className='r-section'>
                       <label htmlFor='description'>Descripción</label>
                       <input 
-                      disabled
                       id= 'description'
                       name= 'description'
                       type= "text"
